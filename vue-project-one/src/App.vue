@@ -1,19 +1,33 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+
 </script>
 
-<template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+<template >
+    
+  <header class="container">
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="Units" />
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/counter">How to Counter</RouterLink>
+      <nav class="nav-div">
+        <div>
+          <RouterLink to="/">Home</RouterLink>
+        </div>
+        <div>
+          <RouterLink to="/about">About</RouterLink>
+        </div>
+        <div>
+          <RouterLink to="/counter">How to Counter</RouterLink>
+        </div>
+        <div>
+          <RouterLink to="/Knight">Knight</RouterLink>
+        </div>
+        <div>
+          <RouterLink to="/MAA">MAA</RouterLink>
+        </div>
+          
       </nav>
     </div>
   </header>
@@ -21,8 +35,25 @@ import HelloWorld from './components/HelloWorld.vue'
   <RouterView />
 </template>
 
-<style scoped>
-header {
+<style >
+
+.container{
+  display: block;
+  background-color: blue;
+}
+
+.nav-div{
+  display: flex;
+  flex-direction: column;
+
+}
+.nav-div div{
+  background-color: aqua;
+  justify-content: space-between;
+}
+
+
+/* header {
   line-height: 1.5;
   max-height: 100vh;
 }
@@ -82,5 +113,5 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
-}
+} */
 </style>
