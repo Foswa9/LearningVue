@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import HowToCounterView from '../views/HowToCounterView.vue'
+import SpearmenView from '../views/SpearmenView.vue'
 import MenAtArmsView from '../views/MenAtArmsView.vue'
 import KnightView from '../views/KnightView.vue'
 
@@ -21,9 +21,9 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     {
-      path: '/counter',
-      name: 'counter',
-      component: HowToCounterView
+      path: '/spearmen',
+      name: 'spearmen',
+      component: SpearmenView
 
     },
     {

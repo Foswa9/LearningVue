@@ -1,8 +1,7 @@
 <template>
-    <temptlate class="container">
     <div class="unit-showcase-parent" >
         <div id="unit-selector">
-            <div><img src="../../images/Knight-Icon.webp" alt="" ></div>
+            <div><img src="../../images/Knight-Icon.webp" alt="" width="40px"></div>
             <div><img src="../../images/Knight-Icon.webp" alt="" width="40px"></div>
             <div><img src="../../images/Knight-Icon.webp" alt="" width="40px"></div>
             <div><img src="../../images/Knight-Icon.webp" alt="" width="40px"></div>
@@ -27,13 +26,10 @@
             With royal bloodlines they are very strong and can even beat spearmen at equal numbers</p></div>
         </div>
     </div>
-</temptlate>
 </template>
 <style >
 
-.container{
-    display: block;
-}
+
 .unit-showcase-parent{
     display: flex;
     justify-content: center;
@@ -56,15 +52,7 @@
     background-color: aquamarine;
 }
 
-#unit-role-text{
-    max-width: 20px;
-}
 
-#unit-role{
-    max-width: 300px;
-}
-#unit-selector{
 
-}
 </style>
 <script></script>

@@ -1,11 +1,10 @@
 <template>
-    <temptlate>
     <div class="unit-showcase-parent" >
         <div id="unit-selector">
-            <div><img src="images/Generic-MAA-Icon.webp" alt="" ></div>
-            <div><img src="images/Generic-MAA-Icon.webp" alt="" ></div>
-            <div><img src="images/Generic-MAA-Icon.webp" alt="" ></div>
-            <div><img src="images/Generic-MAA-Icon.webp" alt="" ></div>
+            <div><img src="images/Generic-MAA-Icon.webp" alt="" width="40px"></div>
+            <div><img src="images/Generic-MAA-Icon.webp" alt="" width="40px"></div>
+            <div><img src="images/Generic-MAA-Icon.webp" alt="" width="40px"></div>
+            <div><img src="images/Generic-MAA-Icon.webp" alt="" width="40px"></div>
             <div></div>
             
         </div>
@@ -27,37 +26,6 @@
             With royal bloodlines they are very strong and can even beat spearmen at equal numbers</p></div>
         </div>
     </div>
-</temptlate>
 </template>
-<style scoped>
-.unit-showcase-parent{
-    display: flex;
-    justify-content: center;
-}
-
-.unit-showcase-parent div{
-    margin: 20px;
-    background-color: brown;
-}
-#unit-description-parent{
-    display: flex;
-    flex-direction: column;
-}
-#unit-description{
-    display: flex;
-    
-}
-
-#unit-description-parent div{
-    background-color: aquamarine;
-}
-
-#unit-role-text{
-    max-width: 20px;
-}
-
-#unit-role{
-    max-width: 300px;
-}
-</style>
+<style></style>
 <script></script>

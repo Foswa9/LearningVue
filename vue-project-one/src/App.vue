@@ -5,38 +5,51 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template >
-    
-  <header class="container">
-
-    <div class="wrapper">
-      <HelloWorld msg="Units" />
-
-      <nav class="nav-div">
-        <div>
-          <RouterLink to="/">Home</RouterLink>
-        </div>
-        <div>
-          <RouterLink to="/about">About</RouterLink>
-        </div>
-        <div>
-          <RouterLink to="/counter">How to Counter</RouterLink>
-        </div>
-        <div>
-          <RouterLink to="/Knight">Knight</RouterLink>
-        </div>
-        <div>
-          <RouterLink to="/MAA">MAA</RouterLink>
-        </div>
-          
-      </nav>
+    <div class="civ-selector-container">
+      Hello my name is
     </div>
-  </header>
+      
+    <header class="container">
 
+      <div class="wrapper">
+        <HelloWorld msg="Units" />
+
+        <nav class="nav-div">
+          <div>
+            <RouterLink to="/">Home</RouterLink>
+          </div>
+          <div>
+            <RouterLink to="/about">About</RouterLink>
+          </div>
+          <div>
+            <RouterLink to="/spearmen">Spearmen</RouterLink>
+          </div>
+          <div>
+            <RouterLink to="/Knight">Knight</RouterLink>
+          </div>
+          <div>
+            <RouterLink to="/MAA">MAA</RouterLink>
+          </div>
+            
+        </nav>
+      </div>
+    </header>
+<!-- <RouterView>
+</RouterView> -->
   <RouterView />
 </template>
 
-<style >
+<style scoped>
+template{
+  background-color: burlywood;
+}
+.all-content-container{
+  background-color: aquamarine;
+}
 
+.civ-selector-container{
+  background-color: tomato;
+}
 .container{
   display: block;
   background-color: blue;
