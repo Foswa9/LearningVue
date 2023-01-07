@@ -14,9 +14,6 @@ import CivSelector from './components/CivSelector.vue'
     <CivSelector></CivSelector>
   </div>
  
-      
-  <header class="container">
-
     <div class="wrapper">
       <HelloWorld msg="Units" />
 
@@ -39,13 +36,16 @@ import CivSelector from './components/CivSelector.vue'
             
       </nav>
     </div>
-  </header>
 
-    <RouterView />
+    <!-- <RouterView /> -->
+    <router-view>
+      
+    </router-view>
 
 </template>
 
 <style scoped>
+
 
 .all-content-container{
   background-color: aquamarine;
