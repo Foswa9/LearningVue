@@ -5,6 +5,7 @@
         <div><img src="../../images/Chinese.webp" alt="" style="width:40px"></div>
         <div><img src="../../images/English.webp" alt="" style="width:40px"></div>
         <div><img src="../../images/Mongolia.webp" alt="" style="width:40px"></div>
+        <div>Hello my name is</div>
     </div>
 </template>
 <style>
@@ -20,4 +21,14 @@
     margin-right: 1%;
 }
 </style>
-<script></script>
+<script>
+
+export default{
+    data() {
+        return {
+            civName:'China'
+        }
+    }
+}
+
+</script>
