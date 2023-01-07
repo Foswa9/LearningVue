@@ -1,6 +1,9 @@
 <template>
     <div class="civSelector-parent">
-        <div><img src="../../images/French.webp" alt="" style="width:40px"></div>
+        <div>
+            <RouterLink to="/"><img src="../../images/French.webp" alt="" style="width:40px"></RouterLink>
+            
+        </div>
         <div><img src="../../images/HRE.png" alt="" style="width:40px"></div>
         <div><img src="../../images/Chinese.webp" alt="" style="width:40px"></div>
         <div><img src="../../images/English.webp" alt="" style="width:40px"></div>
