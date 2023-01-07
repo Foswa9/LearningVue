@@ -1,58 +1,58 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar.vue'
+import CivSelector from './components/CivSelector.vue'
 
 </script>
 
 <template >
-    <div class="civ-selector-container">
-      Hello my name is
-    </div>
+  <div>
+    <NavBar></NavBar>
+  </div>
+  <div>
+    <CivSelector></CivSelector>
+  </div>
+ 
       
-    <header class="container">
+  <header class="container">
 
-      <div class="wrapper">
-        <HelloWorld msg="Units" />
+    <div class="wrapper">
+      <HelloWorld msg="Units" />
 
-        <nav class="nav-div">
-          <div>
-            <RouterLink to="/">Home</RouterLink>
-          </div>
-          <div>
-            <RouterLink to="/about">About</RouterLink>
-          </div>
-          <div>
-            <RouterLink to="/spearmen">Spearmen</RouterLink>
-          </div>
-          <div>
-            <RouterLink to="/Knight">Knight</RouterLink>
-          </div>
-          <div>
-            <RouterLink to="/MAA">MAA</RouterLink>
-          </div>
+      <nav class="nav-div">
+        <div>
+          <RouterLink to="/">Home</RouterLink>
+        </div>
+        <div>
+          <RouterLink to="/about">About</RouterLink>
+        </div>
+        <div>
+          <RouterLink to="/spearmen">Spearmen</RouterLink>
+        </div>
+        <div>
+          <RouterLink to="/Knight">Knight</RouterLink>
+        </div>
+        <div>
+          <RouterLink to="/MAA">MAA</RouterLink>
+        </div>
             
-        </nav>
-      </div>
-    </header>
-<!-- <RouterView>
-</RouterView> -->
-  <RouterView />
+      </nav>
+    </div>
+  </header>
+
+    <RouterView />
+
 </template>
 
 <style scoped>
-template{
-  background-color: burlywood;
-}
+
 .all-content-container{
   background-color: aquamarine;
 }
 
 .civ-selector-container{
   background-color: tomato;
-}
-.container{
-  display: block;
-  background-color: blue;
 }
 
 .nav-div{

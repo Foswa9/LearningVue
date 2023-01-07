@@ -1,4 +1,6 @@
+<script></script>
 <template>
+    
     <div class="unit-showcase-parent" >
         <div id="unit-selector">
             <div><img src="../../images/Knight-Icon.webp" alt="" width="40px"></div>
@@ -55,4 +57,3 @@
 
 
 </style>
-<script></script>
