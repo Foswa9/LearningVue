@@ -1,0 +1,89 @@
+{
+  "id": "khan-3",
+  "baseId": "khan",
+  "type": "unit",
+  "name": "Veteran Khan",
+  "pbgid": 130821,
+  "attribName": "unit_khan_3_mon",
+  "age": 3,
+  "civs": [
+    "mo"
+  ],
+  "description": "Potent ranged cavalry leader able to ignite Signal Arrows to improve the combat capabilities of nearby military units. Reappears at a Town Center if killed.\n+ Vision of a Scout\n+ Herds sheep\n+ High utility in large armies\n+ Automatically improves as the Ages are advanced\n- Only a single Khan per Mongol Civilization at a time",
+  "classes": [
+    "light",
+    "ranged",
+    "cavalry"
+  ],
+  "displayClasses": [
+    "Light Ranged Cavalry"
+  ],
+  "unique": true,
+  "costs": {
+    "gold": 0,
+    "wood": 0,
+    "food": 0,
+    "stone": 0,
+    "total": 0,
+    "time": 22.5
+  },
+  "producedBy": [],
+  "icon": "https://data.aoe4world.com/images/units/khan-3.png",
+  "hitpoints": 300,
+  "weapons": [
+    {
+      "name": "Bow",
+      "type": "ranged",
+      "damage": 6,
+      "speed": 2,
+      "range": {
+        "min": 0,
+        "max": 5.5
+      },
+      "modifiers": [],
+      "durations": {
+        "aim": 0.125,
+        "windup": 0,
+        "attack": 0.125,
+        "winddown": 0.5,
+        "reload": 1.25,
+        "setup": 0,
+        "teardown": 0,
+        "cooldown": 0
+      },
+      "attribName": "weapon_khan_3_mon",
+      "pbgid": 172308
+    },
+    {
+      "name": "Torch",
+      "type": "fire",
+      "damage": 12,
+      "speed": 2.125,
+      "range": {
+        "min": 0,
+        "max": 1.25
+      },
+      "modifiers": [],
+      "durations": {
+        "aim": 0,
+        "windup": 0.75,
+        "attack": 0.125,
+        "winddown": 0,
+        "reload": 0,
+        "setup": 0,
+        "teardown": 0,
+        "cooldown": 1.25
+      },
+      "attribName": "weapon_torch_khan_no_burn_mon",
+      "pbgid": 168999
+    }
+  ],
+  "armor": [],
+  "sight": {
+    "line": 55,
+    "height": 501
+  },
+  "movement": {
+    "speed": 1.625
+  }
+}

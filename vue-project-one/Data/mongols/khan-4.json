@@ -1,0 +1,98 @@
+{
+  "id": "khan-4",
+  "baseId": "khan",
+  "type": "unit",
+  "name": "Elite Khan",
+  "pbgid": 1261685,
+  "attribName": "unit_khan_4_mon",
+  "age": 4,
+  "civs": [
+    "mo"
+  ],
+  "description": "Potent ranged cavalry leader able to ignite Signal Arrows to improve the combat capabilities of nearby military units. Reappears at a Town Center if killed.\n+ Vision of a Scout\n+ Herds sheep\n+ High utility in large armies\n+ Automatically improves as the Ages are advanced\n- Only a single Khan per Mongol Civilization at a time",
+  "classes": [
+    "light",
+    "ranged",
+    "cavalry"
+  ],
+  "displayClasses": [
+    "Light Ranged Cavalry"
+  ],
+  "unique": true,
+  "costs": {
+    "gold": 0,
+    "wood": 0,
+    "food": 0,
+    "stone": 0,
+    "total": 0,
+    "time": 22.5
+  },
+  "producedBy": [],
+  "icon": "https://data.aoe4world.com/images/units/khan-4.png",
+  "hitpoints": 450,
+  "weapons": [
+    {
+      "name": "Bow",
+      "type": "ranged",
+      "damage": 24,
+      "speed": 2,
+      "range": {
+        "min": 0,
+        "max": 5.5
+      },
+      "modifiers": [],
+      "durations": {
+        "aim": 0.125,
+        "windup": 0,
+        "attack": 0.125,
+        "winddown": 0.5,
+        "reload": 1.25,
+        "setup": 0,
+        "teardown": 0,
+        "cooldown": 0
+      },
+      "attribName": "weapon_khan_4_mon",
+      "pbgid": 1261612
+    },
+    {
+      "name": "Torch",
+      "type": "fire",
+      "damage": 12,
+      "speed": 2.125,
+      "range": {
+        "min": 0,
+        "max": 1.25
+      },
+      "modifiers": [],
+      "durations": {
+        "aim": 0,
+        "windup": 0.75,
+        "attack": 0.125,
+        "winddown": 0,
+        "reload": 0,
+        "setup": 0,
+        "teardown": 0,
+        "cooldown": 1.25
+      },
+      "attribName": "weapon_torch_khan_no_burn_mon",
+      "pbgid": 168999
+    }
+  ],
+  "armor": [
+    {
+      "type": "melee",
+      "value": 2
+    },
+    {
+      "type": "ranged",
+      "value": 2
+    }
+  ],
+  "sight": {
+    "line": 60,
+    "height": 501
+  },
+  "movement": {
+    "speed": 1.625
+  }
+}
