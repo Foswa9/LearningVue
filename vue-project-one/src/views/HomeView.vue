@@ -1,9 +1,9 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+<!-- <script>
+export default {
+  props: ['title']
+}
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+  <p>Hello {{title}}</p>
+</template> -->
