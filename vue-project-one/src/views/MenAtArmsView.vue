@@ -11,8 +11,8 @@
         <div id="unit-description-parent">
             <div id="unit-description">
                 <div><img src="images/Generic-MAA-Icon.webp" alt=""></div>
+                <div><p>Men-at-Arms</p></div>
                 <div><p>Heavy melee Infantry</p></div>   
-                <div><p>Royal knight</p></div>
                 <div><p>French</p></div>
             </div>
             <div>

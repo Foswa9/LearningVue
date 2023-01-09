@@ -1,11 +1,12 @@
 <script>
-export default{
-    props: ['title']
-}
 
 </script>
+
 <template>
-    <div class="unit-showcase-parent" >
+    <div>
+        <h1>Hello unit</h1>
+    </div>
+    <!-- <div class="unit-showcase-parent" >
         <div id="unit-selector">
             <div><img src="../../images/Knight-Icon.webp" alt="" width="40px"></div>
             <div><img src="../../images/Knight-Icon.webp" alt="" width="40px"></div>
@@ -31,6 +32,6 @@ export default{
             as they do not have crossbows<br><br>
             With royal bloodlines they are very strong and can even beat spearmen at equal numbers</p></div>
         </div>
-    </div>
+    </div> -->
 </template>
 <style></style>

@@ -13,8 +13,8 @@
         <div id="unit-description-parent">
             <div id="unit-description">
                 <div><img src="images/Knight-Icon.webp" alt=""></div>
-                <div><p>Heavy melee cavalry</p></div>   
                 <div><p>Royal knight</p></div>
+                <div><p>Heavy melee cavalry</p></div>   
                 <div><p>French</p></div>
             </div>
             <div>
@@ -52,6 +52,10 @@
 
 #unit-description-parent div{
     background-color: aquamarine;
+}
+
+#unit-role{
+    max-width: 600px;
 }
 
 

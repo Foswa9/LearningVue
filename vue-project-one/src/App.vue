@@ -3,6 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import NavBar from './components/NavBar.vue'
 import CivSelector from './components/CivSelector.vue'
+import Test from './components/Test.vue'
 
 </script>
 
@@ -13,9 +14,12 @@ import CivSelector from './components/CivSelector.vue'
   <div>
     <CivSelector></CivSelector>
   </div>
+  <div>
+    <Test title="Trajan"></Test>
+  </div>
  
     <div class="wrapper">
-      <HelloWorld msg="Units" />
+      <HelloWorld msg="" />
 
       <nav class="nav-div">
         <div>
@@ -33,6 +37,13 @@ import CivSelector from './components/CivSelector.vue'
         <div>
           <RouterLink to="/MAA">MAA</RouterLink>
         </div>
+        <div>
+          <RouterLink to="/Archers">Archers</RouterLink>
+        </div>
+        <div>
+          <RouterLink to="/MAA">Arbialaia</RouterLink>
+        </div>
+       
             
       </nav>
     </div>
@@ -58,12 +69,12 @@ import CivSelector from './components/CivSelector.vue'
 .nav-div{
   display: flex;
   flex-direction: column;
-
+  align-items: center;
 }
 .nav-div div{
   background-color: aqua;
-  justify-content: space-between;
 }
+
 
 
 /* header {
