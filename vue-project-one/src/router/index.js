@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import SpearmenView from '../views/SpearmenView.vue'
 import MenAtArmsView from '../views/MenAtArmsView.vue'
 import KnightView from '../views/KnightView.vue'
+import ArcherView from '../views/ArcherView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -37,13 +38,13 @@ const router = createRouter({
       component: KnightView
     },
     {
-      path: '/units',
-      name: 'units',
-      component: KnightView
+      path: '/Archer',
+      name: 'Archer',
+      component: ArcherView
     },
     {
       path: '/units/:id',
-      name: 'idk',
+      name: 'units',
       component: () => import('@/views/UnitShowCase.vue')
     }
     

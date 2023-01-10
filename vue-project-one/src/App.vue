@@ -29,7 +29,10 @@ import Test from './components/Test.vue'
           <RouterLink to="/about">About</RouterLink>
         </div>
         <div>
-          <RouterLink to="/spearmen">Spearmen</RouterLink>
+          <RouterLink to="/spearmen">
+            <img src="../images/Generic-Spearmen-Icon.webp" width="">
+            Spearmen
+          </RouterLink>
         </div>
         <div>
           <RouterLink to="/Knight">Knight</RouterLink>
@@ -38,11 +41,9 @@ import Test from './components/Test.vue'
           <RouterLink to="/MAA">MAA</RouterLink>
         </div>
         <div>
-          <RouterLink to="/Archers">Archers</RouterLink>
+          <RouterLink to="/Archer">Archer</RouterLink>
         </div>
-        <div>
-          <RouterLink to="/MAA">Arbialaia</RouterLink>
-        </div>
+        
        
             
       </nav>

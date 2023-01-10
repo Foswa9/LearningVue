@@ -1,26 +1,36 @@
-<script></script>
+<script>
+
+
+</script>
 <template>
+    
     
     <div class="unit-showcase-parent" >
         <div id="unit-selector">
-            <div><img src="../../images/Knight-Icon.webp" alt="" width="40px"></div>
-            <div><img src="../../images/Generic-MAA-Icon.webp" alt="" width="40px"></div>
-            <div><img src="../../images/Generic-Spearmen-Icon.webp" alt="" width="40px"></div>
+            
             <div><img src="../../images/Generic-Archer-Icon.webp" alt="" width="40px"></div>
-            <div><img src="../../images/Arbaletrier-Icon.webp" alt="" width="40px"></div>
-            <div><img src="../../images/Handcannoneer-Icon.webp" alt="" width="40px"></div>
-            <div><img src="../../images/Horseman-Icon.webp" alt="" width="40px"></div>
+            <div><img src="../../images/Generic-Archer-Icon.webp" alt="" width="40px"></div>
+            <div><img src="../../images/Generic-Archer-Icon.webp" alt="" width="40px"></div>
+            <div><img src="../../images/Generic-Archer-Icon.webp" alt="" width="40px"></div> 
+            <!-- <div>
+                <router-link to="/MAA"><img src="images/Generic-Archer-Icon.webp" width="40px"></router-link>
+
+            </div> -->
+            
+            <!-- <div>
+                <router-link to="/MAA"><img src="images/Generic-Archer-Icon.webp" width="40px"></router-link>
+            </div>  -->
             
         </div>
         <div id="unit-description-parent">
             <div id="unit-description">
-                <div><img src="images/Knight-Icon.webp" alt=""></div>
-                <div><p>Royal knight</p></div>
-                <div><p>Heavy melee cavalry</p></div>   
+                <div><img src="images/Generic-Archer-Icon.webp" alt=""></div>
+                <div><p>Archer</p></div>
+                <div><p>Light Ranged Infantry</p></div>   
                 <div><p>French</p></div>
             </div>
             <div>
-                <div>Gain bonus damage for 5 seconds after charging. Effective against most units.<br>+ Heavy armor<br>+ Strong in melee combat<br>- Countered by Spearmen and Crossbowmen</div>
+                <div>Cheap ranged infantry with good damage vs. unarmored targets.<br>+ High rate of fire<br>- Weak against armored targets<br>- Countered by Horsemen</div>
             </div>
         </div>
         <div id="unit-role">
@@ -31,7 +41,7 @@
         </div>
     </div>
 </template>
-<style scoped>
+<style >
 
 
 .unit-showcase-parent{
@@ -41,7 +51,7 @@
 
 .unit-showcase-parent div{
     margin: 20px;
-    
+    background-color: brown;
 }
 #unit-description-parent{
     display: flex;
@@ -60,17 +70,7 @@
     max-width: 600px;
 }
 
-#unit-selector {
-    max-width: 200px;
-    display: flex;
-    flex-direction: column;
-}
-#unit-selector div{
-    background-color: blue;
-    padding: 10px;
-    margin: 10px;
-    
-}
+
 
 
 </style>

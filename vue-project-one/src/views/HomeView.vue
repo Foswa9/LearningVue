@@ -1,4 +1,4 @@
-<!-- <script>
+<script>
 export default {
   props: ['title']
 }
@@ -6,4 +6,4 @@ export default {
 
 <template>
   <p>Hello {{title}}</p>
-</template> -->
+</template>
