@@ -3,22 +3,27 @@ import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import NavBar from './components/NavBar.vue'
 import CivSelector from './components/CivSelector.vue'
-import Test from './components/Test.vue'
 
 </script>
 
 <template >
-  <div>
-    <NavBar></NavBar>
-  </div>
-  <div>
-    <CivSelector></CivSelector>
-  </div>
-  <div>
-    <Test title="Trajan"></Test>
-  </div>
+    <div>
+      <NavBar></NavBar>
+    </div>
+    <div>
+      <CivSelector></CivSelector>
+    </div>
+
+    <div class="civ-overview-parent">
+      <div class="civ-overview-flagicon"> <img src="../images/French.webp" style="width:250px"></div>
+      <div class="civ-overview-text">
+          <div><p>badd ass quote goes here</p></div>
+          <div><p>Excels at: thing1, thing 2 , thing 3</p></div>
+      </div>
+    </div>
+  
  
-    <div class="wrapper">
+    <!-- <div class="wrapper">
       <HelloWorld msg="" />
 
       <nav class="nav-div">
@@ -29,10 +34,7 @@ import Test from './components/Test.vue'
           <RouterLink to="/about">About</RouterLink>
         </div>
         <div>
-          <RouterLink to="/spearmen">
-            <img src="../images/Generic-Spearmen-Icon.webp" width="">
-            Spearmen
-          </RouterLink>
+          <RouterLink to="/spearmen">spearman</RouterLink>
         </div>
         <div>
           <RouterLink to="/Knight">Knight</RouterLink>
@@ -44,10 +46,15 @@ import Test from './components/Test.vue'
           <RouterLink to="/Archer">Archer</RouterLink>
         </div>
         
+        <div>
+          <RouterLink :to="{name: 'UnitShowCase'}">Click</RouterLink>
+        </div>
+        
+        
        
             
       </nav>
-    </div>
+    </div> -->
 
     <!-- <RouterView /> -->
     <router-view>
@@ -58,6 +65,16 @@ import Test from './components/Test.vue'
 
 <style scoped>
 
+.civ-overview-parent{
+  background-color: red;
+  justify-content: center;
+  display: flex;
+}
+
+.civ-overview-text{
+  display: flex;
+  flex-direction: column;
+}
 
 .all-content-container{
   background-color: aquamarine;
@@ -68,11 +85,13 @@ import Test from './components/Test.vue'
 }
 
 .nav-div{
+  
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+
 }
 .nav-div div{
+  margin: 10px;
   background-color: aqua;
 }
 

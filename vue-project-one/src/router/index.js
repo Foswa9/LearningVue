@@ -4,6 +4,10 @@ import SpearmenView from '../views/SpearmenView.vue'
 import MenAtArmsView from '../views/MenAtArmsView.vue'
 import KnightView from '../views/KnightView.vue'
 import ArcherView from '../views/ArcherView.vue'
+import ArbaletrierView from '../views/ArbaletrierView.vue'
+import HandcannoneerView from '../views/HandcannoneerView.vue'
+import UnitShowCase from '../views/UnitShowCase.vue'
+import UnitCard from '../views/UnitCard.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -43,9 +47,25 @@ const router = createRouter({
       component: ArcherView
     },
     {
-      path: '/units/:id',
-      name: 'units',
-      component: () => import('@/views/UnitShowCase.vue')
+      path: '/arbaletrier',
+      name: 'arbaletrier',
+      component: ArbaletrierView
+    },
+    {
+      path: '/handcannoneer',
+      name: 'handcannoneer',
+      component: HandcannoneerView
+    },
+    {
+      path: '/unitshowcase',
+      name: 'UnitShowCase',
+      component: UnitShowCase
+    },
+    {
+      path: '/unit/:id',
+      name: 'unit',
+      component: UnitCard,
+      props: true
     }
     
     

@@ -53,13 +53,16 @@
             </div>
         <div id="unit-description-parent">
             <div id="unit-description">
-                <div><img src="images/French-RoyalKnight-Icon.webp" alt=""></div>
-                <div><p>Royal knight</p></div>
-                <div><p>Heavy melee cavalry</p></div>   
+                <div><img src="images/Handcannoneer-Icon.webp" alt=""></div>
+                <div><p>Handcannoneer</p></div>
+                <div><p>Light<br> Ranged Gunpowder Infantry</p></div>   
                 <div><p>French</p></div>
             </div>
             <div>
-                <div>Gain bonus damage for 5 seconds after charging. Effective against most units.<br>+ Heavy armor<br>+ Strong in melee combat<br>- Countered by Spearmen and Crossbowmen</div>
+                <div>Powerful all-purpose ranged infantry.<br>+ High damage
+                    <br>- High cost
+                    <br>- Slow movement speed
+                    <br>- Countered by Horsemen</div>
             </div>
         </div>
         <div id="unit-role">
@@ -72,54 +75,4 @@
     </div>
     
 </template>
-<style >
-
-.parent{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-.special-unit-parent{
-    display: flex;
-    flex-direction: column;
-    background-color: blueviolet;
-}
-.unit-showcase-parent{
-    display: flex;
-    justify-content: center;
-}
-
-.unit-showcase-parent div{
-    margin: 20px;
-    
-}
-#unit-description-parent{
-    display: flex;
-    flex-direction: column;
-}
-#unit-description{
-    display: flex;
-    
-}
-
-#unit-description-parent div{
-    background-color: aquamarine;
-}
-
-#unit-role{
-    max-width: 600px;
-}
-
-#unit-selector {
-    max-width: 200px;
-    display: flex;
-    flex-direction: column;
-}
-#unit-selector div{
-    padding: 10px;
-    margin: 10px;
-    
-}
-
-
-</style>
+<style></style>

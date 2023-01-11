@@ -1,4 +1,3 @@
-<script></script>
 <template>
     <div class="parent">
         <div class="special-unit-parent">
@@ -44,22 +43,34 @@
                 </div>
                 <div>
                     <RouterLink to="/arbaletrier">
+
                         <img src="../../images/Arbaletrier-Icon.webp" alt="" style="width:40px">
                     </RouterLink>
                 </div>
-                <div><img src="../../images/Handcannoneer-Icon.webp" alt="" style="width:40px"></div>
+                <div>
+                    <RouterLink to="/handcannoneer">
+                        <img src="../../images/Handcannoneer-Icon.webp" alt="" style="width:40px">
+
+                    </RouterLink>
+                </div>
                 <div><img src="../../images/Horseman-Icon.webp" alt="" style="width:40px"></div>
                 
             </div>
         <div id="unit-description-parent">
             <div id="unit-description">
-                <div><img src="images/French-RoyalKnight-Icon.webp" alt=""></div>
-                <div><p>Royal knight</p></div>
-                <div><p>Heavy melee cavalry</p></div>   
+                <div><img src="images/Arbaletrier-Icon.webp" alt=""></div>
+                <div><p>Arbaletrier</p></div>
+                <div><p>Light Ranged Infantry</p></div>   
                 <div><p>French</p></div>
             </div>
             <div>
-                <div>Gain bonus damage for 5 seconds after charging. Effective against most units.<br>+ Heavy armor<br>+ Strong in melee combat<br>- Countered by Spearmen and Crossbowmen</div>
+                <div>High damage ranged unit with a defensive pavise shield. Best used when supported by others.
+                    <br>+ Anti-armor specialist
+                    <br>+ Comes with melee armor
+                    <br>- Low health
+                    <br>- Countered by Horsemen
+
+                </div>
             </div>
         </div>
         <div id="unit-role">
@@ -70,56 +81,6 @@
         </div>
     </div>
     </div>
-    
 </template>
-<style >
-
-.parent{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-.special-unit-parent{
-    display: flex;
-    flex-direction: column;
-    background-color: blueviolet;
-}
-.unit-showcase-parent{
-    display: flex;
-    justify-content: center;
-}
-
-.unit-showcase-parent div{
-    margin: 20px;
-    
-}
-#unit-description-parent{
-    display: flex;
-    flex-direction: column;
-}
-#unit-description{
-    display: flex;
-    
-}
-
-#unit-description-parent div{
-    background-color: aquamarine;
-}
-
-#unit-role{
-    max-width: 600px;
-}
-
-#unit-selector {
-    max-width: 200px;
-    display: flex;
-    flex-direction: column;
-}
-#unit-selector div{
-    padding: 10px;
-    margin: 10px;
-    
-}
-
-
-</style>
+<style></style>
+<script></script>
